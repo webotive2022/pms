@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Program Files\Common Files\Oracle\Java\javapath;C:\Users\admin\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python310\;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\admin\AppData\Roaming\Composer\vendor\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Windows\System32;C:\Windows\SysWOW64\WindowsPowerShell\v1.0;C:\Users\admin\AppData\Local\Android\Sdk\platforms;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;G:\Flutter\flutter_windows_3.0.5-stable\flutter\bin;C:\Users\admin\AppData\Local\Pub\Cache\bin;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Android\Sdk\platform-tools;
@@ -14,8 +14,8 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: connect EHOSTUNREACH 104.16.27.35:443
-      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:109:26)
 
 npm manifest: 
   {
